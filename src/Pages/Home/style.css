@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.homeContainer{
+    width: 100%;
+    display: flex;
+}
+.lefthomebox{
+    width: 55%;
+}
+.righthomebox{
+    width: 45%;
+    height: 500px;
+}
+@media screen and (max-width: 750px){
+    .lefthomebox,.homeTopRight{
+        width: 96%;
+        margin-left: 2%;
+        height: 1120px;
+      }
+      .righthomebox{
+        width: 96%;
+        height: 500px;
+        margin-left: 2%;
+      }
+      .homeContainer{
+        margin-top: 1030px;
+        flex-direction: column;
+      }
+}

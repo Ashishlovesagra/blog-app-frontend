@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+.BollywoodComp{
+    width: 630px;
+    margin-top: 15px;
+    margin-left: 118px;
+}
+.mainBox{
+    width: 625px;
+    height: 220px;
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid gray;
+}
+.main-imgbox{
+    width: 308px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main-img{
+    width: 308px;
+    height: 200px;
+}
+.main-content{
+    width: 290px;
+    margin-left: 10px;
+    height: 200px;
+    margin-top: 10px;
+}
+.main-content-name{
+    font-size: 32px;
+    margin-left: 10px;
+}
+.main-content-imdb{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: blueviolet;
+}
+.main-content-info{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 11px;
+}
+.main-content-time{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 11px;
+}
+.main-travelText{
+    font-weight: 800;
+}
+.titleName{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.titleBr{
+    border: 3px solid red;
+    width: 100px;
+}

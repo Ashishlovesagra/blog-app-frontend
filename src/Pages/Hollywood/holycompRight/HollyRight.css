@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+.bollyRight-MainBox{
+    width: 500px;
+    border: 1px solid black;
+}
+.posttitle{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.postHr{
+    border: 3px solid red;
+    width: 150px;
+    margin-left: 10px;
+}
+.topPost-mainbox{
+    width: 400px;
+    height: 335px;
+    margin-left: 10px;
+    margin-top: 24px;
+    border: 1px solid gray;
+}
+.topPost-image{
+    width: 400px;
+    height: 218px;
+}
+.topPost-img{
+    width: 400px;
+    height: 218px;
+}
+.topPost-content{
+    display: flex;
+}
+.rightContent{
+    font-size: 80px;
+    color: #e1d8d8;
+    width: 150px;
+    height: 74px;
+    text-align: center;
+}
+.topPost-name{
+    margin-left: 10px;
+    margin-top: 22px;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 500;
+}
+.topPost-release{
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.topPost-releaseSpan{
+    font-weight: 600;
+}
+.middleBoxHr{
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bottom-mainBox{
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bottomBox{
+    width: 400px;
+    height: 125px;
+    margin-bottom: 10px;
+    display: flex;
+    border: 1px solid gray;
+}
+.bottombox-image{
+    width: 101px;
+    height: 104px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bottomBox-img{
+    width: 101px;
+    height: 104px;
+}
+.bottombox-content{
+    margin-left: 20px;
+    width: 180px;
+    margin-top: 10px;
+    height: 104px;
+}
+.bottomBox-name{
+    font-size: 28px;
+    font-family: monospace;
+}
+.bottomBox-release{
+    margin-top: 50px;
+    font-size: 12px;
+}
+.bottombox-number{
+    margin-top: 10px;
+    height: 104px;
+    width: 40px;
+    margin-left: 30px;
+}
+.generateNo{
+    font-size: 80px;
+    color: #e1d8d8;
+    width: 150px;
+    height: 74px;
+    text-align: center;
+}
+.bollyPageAdd{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.add{
+    font-size: 28px;
+    margin-top: 225px;
+    margin-left: 104px;
+}

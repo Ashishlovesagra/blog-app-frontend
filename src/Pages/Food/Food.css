@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+.bollymainBox{
+    display: flex;
+    width: 99%;
+}
+.leftbox{
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.rightbox{
+    width: 35%;
+    margin-left: 64px;
+    margin-top: 20px;
+}
