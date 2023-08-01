@@ -8,7 +8,9 @@ function TechRight() {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch("http://localhost:5001/technology");
+      const response = await fetch(
+        "https://blog-app-backend-beryl.vercel.app/technology"
+      );
       const data = await response.json();
       setMovies(data);
     };
@@ -43,12 +45,12 @@ function TechRight() {
         {randomMovie && (
           <div className="topPost-mainbox">
             <div className="topPost-image">
-            <Link to={`/article/${randomMovie.id}`}>
-              <img
-                className="topPost-img"
-                src={randomMovie.image}
-                alt={randomMovie.name}
-              />
+              <Link to={`/article/${randomMovie.id}`}>
+                <img
+                  className="topPost-img"
+                  src={randomMovie.image}
+                  alt={randomMovie.name}
+                />
               </Link>
               <div className="topPost-content">
                 <div className="leftContent">
@@ -70,12 +72,12 @@ function TechRight() {
             <div className="bottom-mainBox">
               <div className="bottomBox" key={movie.id}>
                 <div className="bottombox-image">
-                <Link to={`/article/${movie.id}`}>
-                  <img
-                    className="bottomBox-img"
-                    src={movie.image}
-                    alt={movie.name}
-                  />
+                  <Link to={`/article/${movie.id}`}>
+                    <img
+                      className="bottomBox-img"
+                      src={movie.image}
+                      alt={movie.name}
+                    />
                   </Link>
                 </div>
                 <div className="bottombox-content">
@@ -85,7 +87,9 @@ function TechRight() {
                     {movie.release}
                   </div>
                 </div>
-                <div className="bottombox-number"><span className="generateNo">{generateNumber()}</span></div>
+                <div className="bottombox-number">
+                  <span className="generateNo">{generateNumber()}</span>
+                </div>
               </div>
             </div>
           ))}
